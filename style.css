@@ -365,207 +365,7 @@ font-size: 1.5rem;
   }
 }
 /* .cards ended */
-/* .branches-container{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-gap: 100px;
-
-}
-
-.item-location{
-margin-top:-50px;
-
-
-
-}
-
-
-
-.item-image{
-align-self:flex-end;
-width: 300px;
-position: relative;
-right: 100px;
-border-radius: 10px;
-
-
-}
-
-.website-btn5{
-margin-top: 30px;
-border:2px solid var(--white);
-background-color: var(--black);
-color: var(--white);
-font-size: 1.7rem;
-padding: 15px ;
-padding-left: 30px;
-padding-right: 30px;
-border-radius: 50px;
-position: relative;
-bottom: 60px;
-right: 220px;
-
-
-}
-.website-btn6{
-  margin-top: 30px;
-border:2px solid var(--white);
-background-color: var(--black);
-color: var(--white);
-font-size: 1.7rem;
-padding: 15px ;
-padding-left: 30px;
-padding-right: 30px;
-border-radius: 50px;
-position: relative;
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.our-website-heading3{
-color: var(--white);
-margin-top: 200px;
-font-size: 4rem;
-
-
-
-
-}
-
-.font-heading3{
-font-family:futurak;
-font-size: 3.7rem;
-  position: relative;
-bottom: 40px;
-right: 200px;
-
-
-
-}
-
-.branch-location1{
-color: var(--red);
-font-weight: 100;
-font-size: 2.5rem;
-  position: relative;
-bottom: 60px;
-right: 200px;
-
-
-
-}
-
-
-
-
-
-
-
-.Restaurant{
-color: var(--white);
-font-size: 3rem;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:weight;
-  font-style: normal;
-
-
-}
-
-
-
-.our-website-para3{
-color:var(--light-gray);
-font-size: 1.5rem;
-  position: relative;
-bottom: 60px;
-right: 200px;
-
-
-
-
-}
-.para4{
-color:var(--light-gray);
-font-size: 1.5rem;
-  position: relative;
-bottom: 70px;
-right: 200px;
-
-}
-
-
-
-.our-website-image1{
-  width: 600px;
-margin-top: 30px;
-position: relative;
-left: 150px;
-
-
-}
-
-
-
-
-
-.item-location3{
-position: relative;
-left: 1000px;
-bottom: 510px;
-
-}
-
-
-
-
-
-
-.our-website-heading6{
-color: var(--white);
-margin-top: 200px;
-font-size: 4rem;
-
-
-
-
-}
-
-.font-heading6{
-font-family:futurak;
-font-size: 3.7rem;
-
-
-
-
-}
-
-.Restaurant2{
-color: var(--white);
-font-size: 3rem;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:weight;
-  font-style: normal;
-
-
-}
-
-.para6{
-color:var(--light-gray)} */
+/* .franchise sec */
 .branches-container {
   display: flex;
   flex-wrap: wrap;
@@ -688,3 +488,237 @@ color:var(--light-gray)} */
     padding: 12px 25px;
   }
 }
+/* .Restauran franchise ended */
+
+.express-heading{
+  font-size: 4rem;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  right: 100px;
+  top: 80px;
+}
+.parrent1{
+
+position: relative;
+top: 200px;
+right: 120px;
+display: flex;
+justify-content: center;
+
+}
+.box1-heading{
+  font-size: 2rem;
+  font-weight: 500;
+  position: relative;
+  top: 20px;
+}
+.font-heading6{
+  font-size: 2.2rem;
+  
+}
+.area1{
+  font-size: 1.5rem;
+  color: var(--red);
+  position: relative;
+  right: 340px;
+  top: 20px;
+}
+.location{
+font-size: 1.5rem;
+color: var(--light-gray);
+position: relative;
+top: 30px;
+}
+.content-num{
+font-size: 1.5rem;
+color: var(--light-gray);
+position: relative;
+top: 40px;
+left: 80px;
+}
+.box1-btn{
+  font-size: 1.4rem;
+padding: 14px;
+
+background-color: var(--black);
+border-color: var(--white);
+color: aliceblue;
+border-radius: 30px;
+position: relative;
+top: 70px;
+left: 70px;
+}
+.box2-btn{
+ font-size: 1.4rem;
+padding: 14px;
+
+background-color: var(--black);
+border-color: var(--white);
+color: aliceblue;
+border-radius: 30px;
+position: relative;
+top: 50px;
+right: 150px;
+}
+.box02-btn{
+  font-size: 1.4rem;
+padding: 14px;
+
+background-color: var(--black);
+border-color: var(--white);
+color: aliceblue;
+border-radius: 30px;
+position: relative;
+top: 50px;
+right: 110px;}
+.box3-btn{
+ font-size: 1.4rem;
+padding: 14px;
+
+background-color: var(--black);
+border-color: var(--white);
+color: aliceblue;
+border-radius: 30px;
+position: relative;
+top: 50px;
+right: 150px;
+}
+.box03-btn{
+    font-size: 1.4rem;
+padding: 14px;
+
+background-color: var(--black);
+border-color: var(--white);
+color: aliceblue;
+border-radius: 30px;
+position: relative;
+top: 50px;
+right: 110px;
+}
+.parrent2{
+  display: flex;
+  position: relative;
+  top: 350px;
+ left: 170px;
+}
+.parrent3{
+  display: flex;
+  position: relative;
+  top: 500px;
+  left: 170px;
+}
+.parrent3-img{
+  width: 356px;
+}
+.parrent3-image{
+  max-width: 306px;
+}
+.area3{
+  font-size: 1.5rem;
+  color: var(--red);
+  position: relative;
+  right: 300px;
+  top: 20px;
+}
+/* For small screens like mobile devices */
+@media (max-width: 768px) {
+  .express-heading {
+    font-size: 2.5rem;
+    right: 0;
+    top: 40px;
+    text-align: center;
+  }
+
+  .parrent1 {
+    flex-direction: column;
+    align-items: center;
+    top: 100px;
+    right: 0;
+  }
+
+  .box1-heading,
+  .font-heading6,
+  .area1,
+  .location,
+  .content-num {
+    text-align: center;
+    right: 0;
+    left: 0;
+    margin-bottom:20px;
+  }
+  .location,
+  .content-num{
+    display: none;
+  }
+
+  .area1,
+  .area3 {
+    display: none;
+  }
+.parrent3{
+  text-align: center;
+}
+  .box1-btn,
+  .box2-btn,
+  .box02-btn,
+  .box3-btn,
+  .box03-btn {
+    left: 0;
+    right: 0;
+    top: 30px;
+    margin: 10px auto;
+    display: none;
+  }
+
+  .parrent2,
+  .parrent3 {
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+    top: 100px;
+  }
+
+  .parrent3-img,
+  .parrent3-image {
+    width: 100%;
+    max-width: 90%;
+  }
+}
+
+/* For medium to large screens (default styles work here or you can adjust further) */
+@media (min-width: 769px) and (max-width: 1200px) {
+  .express-heading {
+    font-size: 3rem;
+    right: 50px;
+    top: 60px;
+  }
+
+  .parrent1 {
+    top: 150px;
+    right: 60px;
+  }
+
+  .box1-btn,
+  .box2-btn,
+  .box02-btn,
+  .box3-btn,
+  .box03-btn {
+    left: 40px;
+    right: auto;
+  }
+
+  .parrent2,
+  .parrent3 {
+    left: 100px;
+    top: 250px;
+  }
+}
+@media (max-width: 348px) {
+  .area1 span,
+  .area3 span,
+  .content-num span {
+    display:none;
+  }
+}
+

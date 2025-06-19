@@ -89,6 +89,9 @@ src: url(futurak\ \(4\).ttf );
     font-size: 3rem;
     margin-top: 15px;
 }
+
+
+/* Mobile (Adjust button size & full width) */
 @media(max-width:973px){
     .nav-links a{
         display: none;
@@ -105,4 +108,259 @@ src: url(futurak\ \(4\).ttf );
    display: flex;
    align-items: center;
 }
+}
+@media (max-width: 768px) {
+    .order-btn {
+        width: 100%;
+        font-size: 0.95rem;
+        padding: 10px 20px;
+        box-sizing: border-box;
+    }
+}
+
+/* Small mobile screens */
+@media (max-width: 480px) {
+    .order-btn {
+        font-size: 0.9rem;
+        padding: 10px 16px;
+   
+}
+
+}
+
+
+
+
+
+
+
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* //contaniner ended */
+
+
+  .our-website-heading{
+color: var(--white);
+text-align: center;
+margin-top: 50px;
+font-size: 4rem;
+font-weight: 300;
+
+
+}
+.font-heading{
+font-family: futurak;
+font-size: 5rem;
+
+}
+
+
+.our-website-para{
+color:var(--light-gray);
+text-align: center;
+font-size: 1.5rem;
+
+
+}
+
+
+.website-childrens{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-top: 40px;
+margin-left: 189px;
+gap:0px;
+
+}
+
+.child{
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.children-image{
+width:280px;
+padding: 20px;
+background-color: var(--white);
+border-radius: 5px;
+margin: -80px;
+
+   
+}
+
+.children-image4{
+width: 250px;
+height: 300px;
+padding:20px;
+    background-color: var(--white);
+    border-radius: 5px;
+    height: 140px;
+    margin: -80px;
+}
+
+
+
+
+
+
+.btn{
+margin-top: 30px;
+border:2px solid var(--white);
+background-color: var(--black);
+color: var(--white);
+font-size: 1.7rem;
+padding: 17px ;
+padding-left: 50px;
+padding-right: 50px;
+border-radius: 50px;
+position: relative;
+top: 110px;
+right: 130px;
+
+}
+.btn3{
+margin-top: 30px;
+border:2px solid var(--white);
+background-color: var(--black);
+color: var(--white);
+font-size: 1.7rem;
+padding: 17px ;
+padding-left: 30px;
+padding-right: 30px;
+border-radius: 50px;
+position: relative;
+top: 110px;
+right: 159px;
+
+
+
+
+
+
+
+}
+
+
+.btn2{
+margin-top: 30px;
+border:2px solid var(--white);
+background-color: var(--black);
+color: var(--white);
+font-size: 1.7rem;
+padding: 17px ;
+padding-left: 50px;
+padding-right: 50px;
+border-radius: 50px;
+position: relative;
+top: 110px;
+right: 160px;
+
+
+}
+
+
+
+
+
+
+
+
+.our-website-heading2{
+color: var(--white);
+text-align: center;
+margin-top: 200px;
+font-size: 4rem;
+bottom: -50px auto;
+}
+
+
+
+
+
+
+.font-heading2{
+font-family:futurak;
+font-size: 5.2rem;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+.our-website-para2{
+color:var(--light-gray);
+text-align: center;
+font-size: 1.5rem;
+
+
+
+
+
+
+}
+@media (max-width: 768px) {
+  .website-childrens {
+    flex-direction: column;
+    margin-left: 0;
+    gap: 30px;
+  }
+
+  .child {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  .children-image,
+  .children-image4 {
+    width: 90%;
+    margin: 0;
+  }
+
+  .btn,
+  .btn2,
+  .btn3 {
+    position: static;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    width: auto;
+    align-self: center;
+  }
+}@media (max-width: 768px) {
+  .child {
+    width: 90%;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 0;
+  }
 }

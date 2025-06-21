@@ -94,8 +94,8 @@ src: url(futurak\ \(4\).ttf );
     border-radius: 20px;
     font-size: 14px;
     background-color: transparent;
-    color: #fff;
-    border: 1px solid #fff;
+    color:var(--white);
+    border: 1px solid var(--light-gray);
 }
 
 .btn2 {
@@ -148,7 +148,7 @@ src: url(futurak\ \(4\).ttf );
     list-style: none;
     font-size: 25px;
     margin: 10px 0px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid var(--black);
     width: 80%;
 }
 
@@ -202,7 +202,7 @@ src: url(futurak\ \(4\).ttf );
 }
 
 .mein-salt {
-    background-color: #000;
+    background-color:var(--black);
     padding-top: 100px;
     overflow-x: hidden;
 }
@@ -220,7 +220,7 @@ src: url(futurak\ \(4\).ttf );
 
 .image-div img {
     width: 250px;
-    background-color: #fff;
+    background-color: var(--white);
     padding: 15px;
 }
 
@@ -337,8 +337,8 @@ src: url(futurak\ \(4\).ttf );
     border-radius: 20px;
     font-size: 14px;
     background-color: transparent;
-    color: #fff;
-    border: 1px solid #fff;
+    color: var(--white);
+    border: 1px solid var(--light-gray);
 }
 
 
